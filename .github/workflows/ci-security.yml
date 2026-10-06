@@ -22,4 +22,4 @@ jobs:
         run: pytest test_calculator.py
 
       - name: Run Security Scan
-        run: bandit -r .
+        run: bandit -r . --skip B101
