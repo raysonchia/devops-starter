@@ -1,7 +1,9 @@
 name: CI and Security
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
+  push:
+  pull_request:
 
 jobs:
   ci:
